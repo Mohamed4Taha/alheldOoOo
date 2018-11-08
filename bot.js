@@ -41,7 +41,7 @@ channel.send(`فدرالي فدرالي فدرالي فدرالي فدرالي �
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "soso") {
+  if (command == "spam") {
 if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
 
 
